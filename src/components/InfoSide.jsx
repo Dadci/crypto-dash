@@ -5,12 +5,12 @@ const InfoSide = ({ info, selectedCrypto }) => {
     return (
         <>
 
-            {!info ? (<div className='w-full bg-slate-700 rounded-lg text-white flex flex-col items-center justify-center p-8 gap-6 '>
+            {!info ? (<div className='w-full bg-slate-600 rounded-lg text-white flex flex-col items-center justify-center p-8 gap-6 '>
 
                 <img src={wallet} alt="empty" className='w-32' />
                 <h1 className='text-sm font-normal'>"There is no Crypto selected, Please select to see infos"</h1>
 
-            </div>) : (<div className='w-full bg-slate-700 rounded-lg text-white flex flex-col items-start justify-start p-8 gap-6 '>
+            </div>) : (<div className='w-full bg-slate-600 rounded-lg text-white flex flex-col items-start justify-start p-8 gap-6 '>
                 <div className='flex flex-row-reverse items-start justify-between w-full '>
                     <div>
                         <img src={selectedCrypto.image} alt={selectedCrypto.name} className='w-44' />
