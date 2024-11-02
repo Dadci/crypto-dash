@@ -49,7 +49,7 @@ const DashboardLayout = () => {
     return (
         <div className='text-white'>
             {loading ? <div className='flex items-center justify-center h-screen w-full'><Loader /></div>
-                : <div className='grid grid-cols-3 gap-8 place-items-center p-8 w-full'>
+                : <div className='grid grid-cols-3 gap-0 place-items-center w-full'>
                     <CryptoSide data={data} toggleInfo={toggleInfo} />
                     <InfoSide data={data} info={info} toggleInfo={toggleInfo} selectedCrypto={selectedCrypto} />
                 </div>}
