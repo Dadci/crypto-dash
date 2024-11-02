@@ -2,7 +2,7 @@ import React from 'react'
 
 const CryptoSide = ({ data, toggleInfo }) => {
     return (
-        <div className='w-full bg-slate-700 rounded-lg text-white grid grid-cols-3 place-items-center p-6 gap-4 '>
+        <div className='w-full col-span-2 bg-slate-700 rounded-lg text-white grid grid-cols-4 place-items-center p-6 gap-4 '>
 
             {data.map((crypto, index) => {
                 return (
